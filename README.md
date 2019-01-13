@@ -5,10 +5,6 @@ Modules used: urllib.request, sys, re.
 
 Usage: python <filename>.py
 
-Via Command line:
-
-Usage: python <filename>.py <url-name> 
-
 Results file: Results.txt
 
 Error file: Error.txt
