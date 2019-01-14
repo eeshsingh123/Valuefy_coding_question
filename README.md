@@ -1,9 +1,9 @@
 # Valuefy_coding_question
 A web scraper using regular expression and inbuilt python urllib.request module 
 
-Modules used: urllib.request, sys, re. 
+Modules used: urllib.request, sys, re, Multiprocessing, Pool. 
 
-Usage: python <filename>.py
+Usage: python (filename).py
 
 Results file: Results.txt
 
