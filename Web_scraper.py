@@ -37,7 +37,7 @@ def scraper(u):
 
 		#Using the Pool module for concurrency and multiprocessing
 		ll = [i for i in list(unique_links) if i!= u]  #getting a list of only unique urls and not get stuck in infinite loop
-		p = Pool(5) 					# 5 concurrent connections at a time
+		p = Pool(5) 				       # 5 concurrent connections at a time
 		res = p.map(scraper,ll)
 		p.close()
 		p.join()
