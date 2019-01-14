@@ -18,7 +18,7 @@ def scraper(u):
 		unique_links = set()
 
 		#if url is already traversed then ignore it.
-		#going through each and every url in the list for getting inner urls and calling it recursively. 
+		#going through each and every url in the list for getting inner urls and writing it to the results.txt file. 
 		for i in range(len(my_urls)):
 			if my_urls[i] not in unique_links:
 				with open('result.txt','a') as f:
