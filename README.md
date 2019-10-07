@@ -1,4 +1,5 @@
-# Valuefy_coding_question
+# WebScraping the Medium.com site for useful links
+
 A web scraper using regular expression and inbuilt python urllib.request module 
 
 Modules used: urllib.request, sys, re, Multiprocessing, Pool. 
